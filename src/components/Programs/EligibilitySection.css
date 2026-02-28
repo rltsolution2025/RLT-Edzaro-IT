@@ -1,0 +1,52 @@
+/* SECTION BACKGROUND */
+.eligibility-section {
+  background: linear-gradient(
+    180deg,
+    #f8f9fa 0%,
+    #ffffff 100%
+  );
+}
+
+/* CARD */
+.eligibility-card {
+  border: none;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+.eligibility-card:hover {
+  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.15);
+}
+
+/* ICON */
+.eligibility-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(27, 94, 168, 0.1);
+  color: #1b5ea8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -32px auto 0;
+  font-size: 1.6rem;
+}
+
+/* TEXT */
+.eligibility-text {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .eligibility-icon {
+    width: 56px;
+    height: 56px;
+    margin-top: -28px;
+  }
+}

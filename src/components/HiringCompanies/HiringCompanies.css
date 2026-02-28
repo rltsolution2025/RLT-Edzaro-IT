@@ -1,0 +1,53 @@
+/* Remove left & right spacing completely */
+.hiring-marquee-section {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  overflow: hidden;
+}
+
+/* Marquee wrapper */
+.logo-marquee {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Moving track */
+.logo-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+
+/* STOP scrolling on hover */
+.logo-marquee:hover .logo-track {
+  animation-play-state: paused;
+}
+
+/* Individual logo */
+.logo-item {
+  flex: 0 0 auto;
+  padding: 0 30px;
+}
+
+/* Logo image */
+.logo-item img {
+  height: 60px;
+  filter: grayscale(0%);
+  transition: all 0.3s ease-in-out;
+}
+
+/* COLOR ON HOVER */
+.logo-item img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+/* Scroll animation */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

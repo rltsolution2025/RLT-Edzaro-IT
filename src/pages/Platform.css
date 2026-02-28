@@ -1,0 +1,114 @@
+/* Animated gradient background for HERO */
+.animated-bg {
+  background: linear-gradient(-45deg, #0f766e, #047857, #059669, #16a34a);
+  background-size: 400% 400%;
+  animation: gradientMove 15s ease infinite;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  padding: 5rem 0;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Animated gradient background for FEATURES */
+.animated-bg {
+  background-size: 400% 400%;
+  animation: gradientMove 20s ease infinite;
+  color: white;
+  padding-top: 8rem ;
+}
+
+.animated-bg-secondary {
+  background-color: #e6f2ff;
+  color: #000; /* optional: use dark text for better contrast */
+}
+
+
+/* Right shape in hero */
+.hero-shape {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.2);
+  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+  z-index: 0;
+}
+
+/* Laptop illustration */
+.laptop-box {
+  position: relative;
+  background: #fff;
+  width: 320px;
+  min-height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.laptop-header {
+  display: flex;
+  gap: 6px;
+  padding: 6px 10px;
+  background: #333;
+}
+
+.laptop-header span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.laptop-body {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+}
+
+.laptop-block.big {
+  background: #e5e7eb;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.laptop-block.small {
+  background: #f3f4f6;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.code-popup {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 5px 8px;
+  font-size: 12px;
+  white-space: pre;
+}
+
+/* Feature cards */
+.feature-card {
+  background: white;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .hero-mobile-padding {
+    padding-top: 12rem !important; /* adjust based on navbar height */
+  }
+}

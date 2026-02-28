@@ -1,0 +1,29 @@
+/* SECTION BACKGROUND */
+.enroll-section {
+  background: linear-gradient(
+    180deg,
+    #f8fbff 0%,
+    #ffffff 100%
+  );
+}
+
+/* FORM CONTAINER */
+.enroll-form-wrapper {
+  background: #eef4ff;
+  padding: 2.5rem;
+  border-radius: 18px;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* IMAGE */
+.enroll-image {
+  max-width: 90%;
+  height: auto;
+}
+
+/* MOBILE */
+@media (max-width: 991px) {
+  .enroll-form-wrapper {
+    padding: 2rem;
+  }
+}

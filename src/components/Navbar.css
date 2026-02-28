@@ -1,0 +1,42 @@
+.no-caret .dropdown-toggle::after {
+  display: none !important;
+}
+
+/* Remove ALL bootstrap dropdown arrows for this component */
+/* Remove dropdown arrow completely */
+.more-dropdown-custom .dropdown-toggle::after {
+  display: none !important;
+}
+
+/* Dropdown menu styling */
+.more-dropdown-custom .dropdown-menu {
+  margin-top: 8px;
+  border-radius: 10px;
+  padding: 8px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+
+/* =========================
+   NAVBAR – FINAL FIX
+========================= */
+/* =========================
+   FIXED NAVBAR (FINAL)
+========================= */
+
+.navbar-wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1100;
+  background-color: #ffffff;
+}
+
+/* Two-row navbar height */
+.navbar-wrapper > .container-fluid {
+  min-height: 38px;
+}
+
+.navbar-wrapper > .container {
+  min-height: 72px;
+}

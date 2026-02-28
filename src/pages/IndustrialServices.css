@@ -1,0 +1,81 @@
+.industrial-bg {
+  background: #e0e8f5;
+  position: relative;
+  overflow: hidden;
+  padding-top: 8rem;
+}
+/* @media (max-width: 768px) {
+  .industrial-bg {
+    padding-top: 7rem !important; /* adjust based on navbar height */
+  /* }
+} */ 
+/* HERO SECTION */
+.industrial-hero-section {
+  padding: 80px 0;
+}
+
+.brand {
+  color: #0d6efd;
+}
+
+/* SERVICE CARD */
+.service-card {
+    background: #b7e1f0 !important; /* Soft light-blue background */
+  border-radius: 12px;
+  border-radius: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.icon-wrapper {
+  width: 70px;
+  height: 70px;
+  background: #e5efff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FLOATING BACKGROUND */
+.industrial-animated-bg span {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(13, 110, 253, 0.15);
+  animation: floatUp 10s linear infinite;
+}
+
+.industrial-animated-bg span:nth-child(1) {
+  width: 140px;
+  height: 140px;
+  left: 10%;
+  bottom: -150px;
+}
+
+.industrial-animated-bg span:nth-child(2) {
+  width: 200px;
+  height: 200px;
+  left: 50%;
+  bottom: -200px;
+}
+
+.industrial-animated-bg span:nth-child(3) {
+  width: 120px;
+  height: 120px;
+  right: 15%;
+  bottom: -120px;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(-350px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-700px);
+    opacity: 0;
+  }
+}

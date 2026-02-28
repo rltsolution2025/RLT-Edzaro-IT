@@ -1,0 +1,44 @@
+.program-stats-section {
+  background: linear-gradient(
+    180deg,
+    #f8f9fa 0%,
+    #ffffff 100%
+  );
+}
+
+/* 🔹 Stat Card */
+.stat-card {
+  min-height: 170px;
+  border-radius: 18px;
+  border: 1px solid #eef1f4;
+  background: #ffffff;
+  transition: all 0.35s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* 🔹 Subtle hover glow (corporate safe) */
+.stat-card:hover {
+  box-shadow: 0 14px 35px rgba(27, 94, 168, 0.18);
+  border-color: rgba(27, 94, 168, 0.25);
+}
+
+/* 🔹 Value styling */
+.stat-value {
+  font-size: 2.4rem;
+  color: #1b5ea8;
+  letter-spacing: -0.5px;
+}
+
+/* 🔹 Label styling */
+.stat-label {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+/* 🔹 Responsive fine-tuning */
+@media (max-width: 768px) {
+  .stat-card {
+    min-height: 150px;
+  }
+}
+

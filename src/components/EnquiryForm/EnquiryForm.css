@@ -1,0 +1,64 @@
+/* Enquiry Form Container */
+.enquiry-form {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  max-width: 420px;
+  margin: auto;
+}
+
+/* Inputs & Select */
+.enquiry-form .form-control {
+  height: 48px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  padding: 10px 14px;
+  transition: all 0.3s ease;
+}
+
+/* Focus effect */
+.enquiry-form .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
+  outline: none;
+}
+
+/* Dropdown fix */
+.enquiry-form select.form-control {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+/* Submit Button */
+.enquiry-btn {
+  height: 48px;
+  border-radius: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.enquiry-btn:hover {
+  box-shadow: 0 10px 25px rgba(13, 110, 253, 0.35);
+}
+
+/* Title (optional) */
+.enquiry-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 16px;
+  color: #1f2937;
+}
+
+/* Mobile optimization */
+@media (max-width: 480px) {
+  .enquiry-form {
+    padding: 20px;
+    border-radius: 14px;
+  }
+}

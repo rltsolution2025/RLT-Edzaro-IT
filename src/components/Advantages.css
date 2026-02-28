@@ -1,0 +1,68 @@
+.adv-section {
+  background: url("https://images.unsplash.com/photo-1526378722484-bd91ca387e72?q=80")
+    center/cover no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Soft floating shapes */
+.adv-floating-shape {
+  position: absolute;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.25) 0%, transparent 70%);
+  width: 260px;
+  height: 260px;
+  filter: blur(40px);
+  border-radius: 50%;
+  animation: float 10s ease-in-out infinite;
+}
+
+.shape1 {
+  top: -60px;
+  left: -80px;
+}
+.shape2 {
+  bottom: -80px;
+  right: -50px;
+  animation-delay: 3s;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-30px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Card Styling */
+.adv-card {
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.4s ease;
+}
+
+.adv-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Image */
+.adv-card-img-wrapper {
+  height: 160px;
+  overflow: hidden;
+}
+
+.adv-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Icons */
+.adv-icon-wrapper {
+  margin: 10px auto;
+}
+
+.adv-icon {
+  font-size: 40px;
+  color: #2f4fe0;
+}

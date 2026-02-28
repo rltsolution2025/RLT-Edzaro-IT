@@ -1,0 +1,85 @@
+.program-hero {
+  min-height: 80vh;
+  background: #0b1c2d;
+}
+
+/* 🔹 Animated Gradient */
+.tech-bg-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    #0b1c2d,
+    #123a66,
+    #1b5ea8,
+    #0b1c2d
+  );
+  background-size: 400% 400%;
+  animation: gradientMove 15s ease infinite;
+  z-index: 0;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* 🔹 Floating Tech Particles */
+.tech-particles::before,
+.tech-particles::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(255,255,255,0.15) 2px, transparent 2px),
+    radial-gradient(circle at 70% 40%, rgba(255,255,255,0.12) 2px, transparent 2px),
+    radial-gradient(circle at 40% 80%, rgba(255,255,255,0.1) 2px, transparent 2px);
+  background-size: 200px 200px;
+  animation: particlesFloat 20s linear infinite;
+  z-index: 1;
+}
+
+.tech-particles::after {
+  animation-duration: 35s;
+  opacity: 0.6;
+}
+
+@keyframes particlesFloat {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-200px);
+  }
+}
+.program-hero {
+  min-height: 75vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Overlay for readability */
+.program-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.35)
+  );
+  z-index: 1;
+}
+
+/* Optional helper */
+.min-vh-75 {
+  min-height: 75vh;
+}

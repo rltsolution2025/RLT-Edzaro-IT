@@ -1,0 +1,80 @@
+/* WRAPPER allows overflow */
+.capstone-wrapper {
+  position: relative;
+  overflow: visible;
+}
+
+/* MAIN SECTION */
+.capstone-section {
+  height: 520px; /* standard section height */
+  background: #0b1120;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+/* BACKGROUNDS */
+.capstone-bg-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(52, 83, 156, 0.95),
+    rgba(2, 6, 23, 0.85)
+  );
+  z-index: 1;
+}
+
+.capstone-bg-grid {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.04) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.04) 1px,
+      transparent 1px
+    );
+  background-size: 40px 40px;
+  z-index: 2;
+}
+
+/* CONTENT */
+.capstone-section .container {
+  position: relative;
+  z-index: 3;
+}
+
+.capstone-card {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  border: none;
+  backdrop-filter: blur(6px);
+  border-radius: 14px;
+}
+
+/* IMAGE OUTSIDE / OVERLAPPING */
+.capstone-outside-image {
+  position: absolute;
+  right: -80px;   /* pushes image outside */
+  top: 50%;
+  transform: translateY(-50%);
+  height: 620px; /* taller than section */
+  z-index: 4;
+  pointer-events: none;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .capstone-section {
+    height: auto;
+    padding: 60px 0;
+  }
+
+  .capstone-outside-image {
+    display: none;
+  }
+}

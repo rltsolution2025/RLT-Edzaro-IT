@@ -1,0 +1,28 @@
+html, body {
+  /* margin: 0;
+  padding: 0; */
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+.hover-shadow {
+  transition: box-shadow 0.3s ease;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-lg {
+  transition: all 0.3s ease;
+}
+.shadow-lg:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15) !important;
+}
+.custom-blue-section {
+  background-color: #e6f2ff; 
+  
+}
+

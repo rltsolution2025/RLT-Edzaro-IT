@@ -1,0 +1,69 @@
+/* /* ===== HERO ===== */
+.hero-bg {
+  background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  min-height: 85vh;
+}
+
+.min-vh-75 {
+  min-height: 75vh;
+}
+
+/* ===== WHY EDZARO ===== */
+.why-edzaro-section {
+  background: linear-gradient(135deg, #f8fafc, #eef2f7);
+  padding: 80px 0;
+}
+
+.brand-highlight {
+  color: #0d6efd;
+}
+
+.corporate-stat-card {
+  text-align: center;
+  padding: 35px 25px;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.stat-number {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #0d6efd;
+}
+
+.stat-label {
+  font-weight: 600;
+}
+
+.stat-sub {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+.hire-section {
+  position: relative;
+}
+
+.hire-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45); /* dark overlay */
+}
+
+.hire-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hire-card {
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+#hire-form {
+  scroll-margin-top: 100px; /* navbar height */
+}
