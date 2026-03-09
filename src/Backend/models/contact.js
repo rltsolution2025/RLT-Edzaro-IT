@@ -25,6 +25,16 @@ const contactSchema = new mongoose.Schema(
             required: true,
             trim: true,
         },
+            course: {
+            type: String,
+            required: true,
+            enum: [
+                "AWS",
+                "Artificial Intelligence",
+                "Tally"
+            ]
+        }                           
+
     },
     {
         timestamps: true, // Adds createdAt and updatedAt automatically

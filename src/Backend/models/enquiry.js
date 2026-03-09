@@ -28,6 +28,7 @@ const enquirySchema = new mongoose.Schema({
     "Center for Artificial Intelligence",
     "AI Lab for Schools",
     "AI-Infinity (Technical / Fundamental)",
+    "Tally",
     "Others",
     ],
   },

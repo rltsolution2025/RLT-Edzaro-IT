@@ -121,6 +121,9 @@ const Navbar = () => {
               <NavDropdown.Item as={Link} to="/ai-lab-school-generative-ai-training" onClick={() => setExpanded(false)}>
                 AI Lab for Schools 
               </NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/tally" onClick={() => setExpanded(false)}>
+                Tally
+              </NavDropdown.Item>
             </NavDropdown>
 
             {/* Other Links */}

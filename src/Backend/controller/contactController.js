@@ -6,14 +6,20 @@ const validateEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 
 // Phone validation (10 digits only)
 const validatePhone = (phone) => /^[0-9]{10}$/.test(phone);
+const validateCourse = (course) => ["AWS", "Artificial Intelligence", "Tally"].includes(course);
 
 const submitContactForm = async (req, res) => {
   try {
-    const { name, email, phone, message } = req.body;
+    const { name, email, phone, message, course } = req.body;
 
     // Required fields check
-    if (!name || !email || !phone || !message) {
+    if (!name || !email || !phone || !message || !course) {
       return res.status(400).json({ error: "All fields are required" });
+    }
+
+    // Course validation
+    if (!validateCourse(course)) {
+      return res.status(400).json({ error: "Invalid course selection" });
     }
 
     // Email format validation
@@ -34,6 +40,7 @@ const submitContactForm = async (req, res) => {
       email,
       phone,
       message,
+      course,
     });
 
     console.log("Contact form saved:", newContact);
@@ -50,6 +57,7 @@ const submitContactForm = async (req, res) => {
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Phone:</strong> ${phone}</p>
         <p><strong>Message:</strong> ${message}</p>
+        <p><strong>Course Interested:</strong> ${course}</p>
       `
     );
 
@@ -63,7 +71,7 @@ const submitContactForm = async (req, res) => {
         <h2>Hello ${name},</h2>
         <p>Thank you for contacting us.</p>
         <p>We have received your message and our team will get back to you soon.</p>
-
+        <p><strong>Course Interested:</strong> ${course}</p>
         <h4>Your Message:</h4>
         <p>${message}</p>
 

@@ -7,6 +7,7 @@ const ALLOWED_COURSES = [
     "Center for Artificial Intelligence",
     "AI Lab for Schools",
     "AI-Infinity (Technical / Fundamental)",
+    "Tally",
     "Others",
 ];
 

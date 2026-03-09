@@ -122,6 +122,20 @@ const ContactForm = () => {
               {phoneError}
             </Form.Control.Feedback>
           </Form.Group>
+          <Form.Group className="mb-3">
+            <Form.Label>Select Course</Form.Label>
+            <Form.Select
+              name="course"
+              value={contact.course}
+              onChange={handleChange}
+              required
+            >
+              <option value="">Select a Course</option>
+              <option value="AWS">AWS </option>
+              <option value="Artificial Intelligence">Artificial Intelligence</option>
+              <option value="Tally">Tally</option>
+            </Form.Select>
+          </Form.Group>
 
           <Form.Group className="mb-3">
             <Form.Label>Your Message</Form.Label>
@@ -135,7 +149,6 @@ const ContactForm = () => {
               required
             />
           </Form.Group>
-
           <Button type="submit" className="w-100 py-2 fw-semibold">
             Submit Inquiry
           </Button>
