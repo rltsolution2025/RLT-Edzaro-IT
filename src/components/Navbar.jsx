@@ -58,8 +58,8 @@ const Navbar = () => {
           |{" "}
           <a
             onClick={() => {
-              setExpanded(false); // close mobile menu
-              navigate("/registration"); // navigate to registration page
+              setExpanded(false); 
+              navigate("/registration"); 
             }}
             style={{ color: "#050363ff", cursor: "pointer", textDecoration: "dotted underline" }}
           >
