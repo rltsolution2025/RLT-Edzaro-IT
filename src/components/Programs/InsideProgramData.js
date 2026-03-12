@@ -496,6 +496,221 @@ export const programDetails = {
       a: "Yes. Students can participate in the National AI Olympiad, hackathons, and AI showcases, positioning the school as an AI education leader.",
     },
   ],
+},
+"finishing-school-program": {
+  id: "finishing-school-program",
+  type: "course",
+
+  /* ---------- Listing Info ---------- */
+
+  title: "Finishing School Program",
+  category: "Career Readiness Program",
+  duration: "Structured Career Preparation",
+  audience: "Students & Fresh Graduates",
+  fee: "Contact for Details",
+  img: "/assets/finishing-school.png",
+  pdf: "finishing-school.pdf",
+  pagetitle: "Finishing School Program | RLT EDZARO",
+  pageoverview:
+    "Equipping students for career and placement success through structured training in aptitude, communication, and professional excellence.",
+
+  /* ---------- Hero / Detail ---------- */
+
+  tagLine: "Preparing Students to Step Confidently into the Corporate World",
+  heroImages: [
+    "/assets/finishing-school-hero.png"
+  ],
+
+  overview:
+    "The Finishing School program prepares job-ready graduates through structured training in aptitude, communication, and professional excellence. Studies show that students trained in structured soft-skill programs have 2X higher placement conversion rates. Reports from NASSCOM, India Skills Report, and LinkedIn highlight that 70% of employers believe graduates lack job readiness skills, and 9 out of 10 recruiters value communication and problem-solving skills as much as technical expertise.",
+
+  feature: "Improved Career & Placement Opportunities",
+
+  stats: [
+    { label: "Placement Conversion", value: "2X Higher" },
+    { label: "Employers Concern", value: "70% Job Readiness" },
+    { label: "Recruiter Priority", value: "9/10 Value Soft Skills" },
+    { label: "Program Rating", value: "4.8 Average Rating" }
+  ],
+
+  highlights: [
+    { title: "Daily aptitude and communication sessions", image: "/assets/Images/communication.png" },
+    { title: "Personalized mock interviews with expert feedback", image: "/assets/Images/mock-interview.png" },
+    { title: "Industry-specific technical and aptitude tests", image: "/assets/Images/aptitude.png" },
+    { title: "Industry-focused grooming and soft skill training", image: "/assets/Images/soft-skills.png" },
+    { title: "Continuous tracking and career readiness reports", image: "/assets/Images/career-tracking.png" }
+  ],
+
+  tracks: [
+    {
+      title: "Curriculum",
+      fee: "Included in Program",
+      modules: [
+        "Conversational Skills",
+        "Professional Communication",
+        "Technical Expositions & Discussions",
+        "Industry Readiness",
+        "Arithmetic",
+        "Reasoning",
+        "Verbal Ability",
+        "Design Thinking",
+        "Learning to Learn",
+        "Critical Thinking"
+      ]
+    }
+  ],
+
+  capstones: [
+    "Resume Building Sessions",
+    "LinkedIn Profile Creation",
+    "Project Presentation Sessions",
+    "Mock Interviews with Feedback"
+  ],
+
+  idealFor: [
+    "Final-year college students",
+    "Fresh graduates preparing for placements",
+    "Students improving communication skills",
+    "Candidates preparing for corporate careers"
+  ],
+
+  faq: [
+    {
+      q: "What is the purpose of the Finishing School program?",
+      a: "The program prepares students for corporate careers through structured training in aptitude, communication, and professional excellence."
+    },
+    {
+      q: "Why are soft skills important for placements?",
+      a: "Reports show that 9 out of 10 recruiters consider communication and problem-solving skills as important as technical expertise."
+    },
+    {
+      q: "What placement advantages does this program provide?",
+      a: "Students trained in structured soft-skill programs show 2X higher placement conversion rates."
+    },
+    {
+      q: "What organizations support these insights?",
+      a: "Industry insights are supported by NASSCOM, India Skills Report, and LinkedIn."
+    }
+  ]
+}, 
+"ai-infinity-finishing-school-program": {
+  id: "ai-infinity-finishing-school-program",
+  type: "course",
+
+  /* ---------- Listing Info ---------- */
+
+  title: "AI Infinity™ + Finishing School Program",
+  category: "AI & Career Readiness Program",
+  duration: "40 Hours + Projects + Career Training",
+  audience: "Students, Fresh Graduates & Working Professionals",
+  fee: "Contact for Details",
+  img: "/assets/AI-infinity.png",
+  pdf: "AI-Infinity.pdf",
+  pagetitle: "AI Infinity + Finishing School Program | RLT EDZARO",
+  pageoverview:
+    "AI Infinity™ + Finishing School by RLT EDZARO combines cutting-edge AI training with structured career readiness programs to prepare learners for high-demand AI careers and corporate success.",
+
+  /* ---------- Hero / Detail ---------- */
+
+  tagLine: "Upskill for the Age of Intelligence & Step Confidently into the Corporate World",
+
+  heroImages: [
+    "/assets/AI-infinity.png",
+    "/assets/finishing-school-hero.png"
+  ],
+
+  overview:
+    "AI Infinity™ + Finishing School is a powerful career acceleration program combining advanced AI training with structured career readiness preparation. The program covers Generative AI, Agentic AI, and real-world AI applications while also developing essential employability skills such as communication, aptitude, and problem-solving. Industry studies show that students trained in structured soft-skill programs achieve 2X higher placement conversion rates. Supported by insights from NASSCOM, India Skills Report, and LinkedIn, the program prepares learners to become AI-ready professionals who can confidently enter the corporate world.",
+
+  feature: "AI Skills + Career Readiness + Placement Preparation",
+
+  stats: [
+    { label: "AI Training Hours", value: "40+" },
+    { label: "Placement Advantage", value: "2X Higher Conversion" },
+    { label: "AI Tools Covered", value: "20+ Tools" },
+    { label: "Program Rating", value: "4.8 Average Rating" }
+  ],
+
+  highlights: [
+    { title: "Generative AI, Agentic AI & real-world AI applications", image: "/assets/Images/GenAI.png" },
+    { title: "Hands-on AI projects and AI challenges", image: "/assets/Images/Real-Project.png" },
+    { title: "Functional & Technical learning tracks", image: "/assets/Images/TechnicalTrack.png" },
+    { title: "Daily aptitude and communication training", image: "/assets/Images/communication.png" },
+    { title: "Mock interviews with expert feedback", image: "/assets/Images/mock-interview.png" },
+    { title: "Industry-focused grooming and soft skills sessions", image: "/assets/Images/soft-skills.png" }
+  ],
+
+  tracks: [
+    {
+      title: "AI Infinity – Functional Track (Non-Tech)",
+      modules: [
+        "AI Decoded & Business Use Cases",
+        "Generative AI for Productivity",
+        "Prompt Engineering Basics",
+        "AI Applications in Business",
+        "Responsible AI"
+      ]
+    },
+    {
+      title: "AI Infinity – Technical Track",
+      modules: [
+        "GenAI Tools & Platforms",
+        "Prompt Engineering & Model Mastery",
+        "LangChain & Agentic AI",
+        "Build Your Own AI Agent",
+        "Scaling AI for Business ROI"
+      ]
+    },
+    {
+      title: "Finishing School – Career Readiness",
+      modules: [
+        "Conversational Skills",
+        "Professional Communication",
+        "Technical Expositions & Discussions",
+        "Industry Readiness",
+        "Arithmetic & Reasoning",
+        "Verbal Ability",
+        "Design Thinking",
+        "Critical Thinking",
+        "Learning to Learn"
+      ]
+    }
+  ],
+
+  capstones: [
+    "Hands-on AI project development",
+    "AI Agent building challenge",
+    "Resume Building Sessions",
+    "LinkedIn Profile Creation",
+    "Project Presentation Training",
+    "Mock Interviews with Feedback"
+  ],
+
+  idealFor: [
+    "Students entering the AI industry",
+    "Fresh graduates preparing for placements",
+    "Professionals looking to upgrade with AI skills",
+    "Individuals aiming for AI-driven careers"
+  ],
+
+  faq: [
+    {
+      q: "What makes this program unique?",
+      a: "This program combines cutting-edge AI training with structured career readiness training to prepare learners for real-world AI careers."
+    },
+    {
+      q: "Is the program suitable for non-technical learners?",
+      a: "Yes. The program includes a Functional Track for non-tech learners and a Technical Track for developers."
+    },
+    {
+      q: "Does the program include placement preparation?",
+      a: "Yes. The Finishing School module includes aptitude training, communication development, resume building, and mock interviews."
+    },
+    {
+      q: "What industry insights support this program?",
+      a: "Industry reports from NASSCOM, India Skills Report, and LinkedIn highlight the importance of communication and problem-solving skills for career success."
+    }
+  ]
 }
 
 

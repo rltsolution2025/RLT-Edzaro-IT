@@ -24,17 +24,17 @@ const ProgramHero = ({ program }) => {
 
             <p className="lead mt-3">{program.overview}</p>
 
-            {program.type === "school" && program.feature && (
-              <Badge bg="warning" text="dark" className="p-3 fs-6 mt-3">
-                {program.feature}
-              </Badge>
-            )}
+            {program.feature && (
+  <Badge bg="warning" text="dark" className="p-3 fs-6 mt-3">
+    {program.feature}
+  </Badge>
+)}
 
-            {program.type !== "school" && program.salaryRange && (
-              <Badge bg="warning" text="dark" className="p-3 fs-6 mt-3">
-                Salary Package: {program.salaryRange}
-              </Badge>
-            )}
+{!program.feature && program.salaryRange && (
+  <Badge bg="warning" text="dark" className="p-3 fs-6 mt-3">
+    Salary Package: {program.salaryRange}
+  </Badge>
+)}
           </Col>
         </Row>
       </Container>

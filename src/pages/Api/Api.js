@@ -2,10 +2,10 @@ import axios from 'axios';
 
 // import React, { useState } from 'react';
 
-const API_BASE_URL = 'http://localhost:5000/api'; 
+// const API_BASE_URL = 'http://localhost:5000/api'; 
 // const API_BASE_URL = 'https://rlt-edzaro-1.onrender.com/api'; // Replace with your backend URL
 
-// const API_BASE_URL = 'https://api.rltedzaro.com/api'; 
+const API_BASE_URL = 'https://api.rltedzaro.com/api'; 
 
 export const submitHiringPartner = async (data) => {
     try {

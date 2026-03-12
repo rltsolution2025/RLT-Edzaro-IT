@@ -14,7 +14,7 @@ const Footer = () => {
            <p className="mt-3">
   <strong>Address:</strong><br />
   2, 1st St, Corporation Colony, Rangarajapuram, Kodambakkam, Chennai, Tamil Nadu 600024<br />
-  Phone: +91 89255 00513 | Email: contact@rltedzaro.com
+  Phone: +91 89255 00513 <br/> Email: contact@rltedzaro.com
 </p>
           </Col>
           <Col md={4}>
