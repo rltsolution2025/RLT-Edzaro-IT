@@ -499,7 +499,7 @@ export const programDetails = {
 },
 "finishing-school-program": {
   id: "finishing-school-program",
-  type: "course",
+  type: "college",
 
   /* ---------- Listing Info ---------- */
 
@@ -518,7 +518,7 @@ export const programDetails = {
 
   tagLine: "Preparing Students to Step Confidently into the Corporate World",
   heroImages: [
-    "/assets/finishing-school-hero.png"
+    "/assets/Finishing-school-program.png"
   ],
 
   overview:
