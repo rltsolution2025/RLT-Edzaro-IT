@@ -604,7 +604,7 @@ export const programDetails = {
   duration: "40 Hours + Projects + Career Training",
   audience: "Students, Fresh Graduates & Working Professionals",
   fee: "Contact for Details",
-  img: "/assets/AI-infinity.png",
+  img: "/assets/AI&Finishing-school-program.png",
   pdf: "AI-Infinity.pdf",
   pagetitle: "AI Infinity + Finishing School Program | RLT EDZARO",
   pageoverview:
@@ -615,8 +615,8 @@ export const programDetails = {
   tagLine: "Upskill for the Age of Intelligence & Step Confidently into the Corporate World",
 
   heroImages: [
-    "/assets/AI-infinity.png",
-    "/assets/finishing-school-hero.png"
+    // "/assets/AI-infinity.png",
+    "/assets/AI&Finishing-school-program.png"
   ],
 
   overview:
