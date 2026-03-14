@@ -537,7 +537,7 @@ export const programDetails = {
     { title: "Daily aptitude and communication sessions", image: "/assets/Daily-Aptitute.png" },
     { title: "Personalized mock interviews with expert feedback", image: "/assets/MockInterview.png" },
     { title: "Industry-specific technical and aptitude tests", image: "/assets/Aptitute-test.png" },
-    { title: "Industry-focused grooming and soft skill training", image: "/assets/Softskills-training.png" },
+    { title: "Industry-focused grooming and soft skill training", image: "/assets/Softskill-training.png" },
     { title: "Continuous tracking and career readiness reports", image: "/assets/Career-readiness-report.png" }
   ],
 
@@ -634,7 +634,7 @@ export const programDetails = {
   highlights: [
     { title: "Generative AI, Agentic AI & real-world AI applications", image: "/assets/Gen-AI.png" },
     { title: "Hands-on AI projects and AI challenges", image: "/assets/AI-project.png" },
-    { title: "Functional & Technical learning tracks", image: "/assets/earning-tracks.png" },
+    { title: "Functional & Technical learning tracks", image: "/assets/Learning-tracks.png" },
     { title: "Daily aptitude and communication training", image: "/assets/Daily-Aptitute.png" },
     { title: "Mock interviews with expert feedback", image: "/assets/MockInterview.png" },
     { title: "Industry-focused grooming and soft skills sessions", image: "/assets/Softskill-training.png" }
