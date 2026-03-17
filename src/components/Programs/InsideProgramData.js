@@ -508,7 +508,7 @@ export const programDetails = {
   duration: "Structured Career Preparation",
   audience: "Students & Fresh Graduates",
   fee: "Contact for Details",
-  img: "/assets/finishing-school.png",
+  img: "/assets/Finishing-school-program.png",
   pdf: "finishing-school.pdf",
   pagetitle: "Finishing School Program | RLT EDZARO",
   pageoverview:
